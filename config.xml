@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns	= "http://www.w3.org/ns/widgets"
+	xmlns:gap	= "http://phonegap.com/ns/1.0"
+	id		    = "com.ruddworks.testapp"
+	version 	= "1.0">
+
+	<name>Cordova App 2.7.0</name>
+
+	<description>
+        A test app that installs all plugins
+	</description>
+
+	<author href="http://adobe.com" email="rudd@adobe.com">
+		Brett Rudd
+	</author>
+
+  <preference name="phonegap-version" value="2.7.0" />
+
+  <gap:splash src="splash/ios/Default.png" width="320" height="480" />
+  <gap:splash src="splash/ios/Default_at_2x.png" width="640" height="960" />
+  <gap:splash src="splash/ios/Default_iphone5.png" width="640" height="1136" />
+  <gap:splash src="splash/ios/Default-Landscape.png" width="1024" height="768" />
+  <gap:splash src="splash/ios/Default-Portrait.png" width="768" height="1024" />
+  <gap:splash src="splash/ios/Default-Landscape_at_2x.png" width="2048" height="1496" />
+  <gap:splash src="splash/ios/Default-Portrait_at_2x.png" width="1536" height="2008" />
+
+  <icon src="icons/ios/classic.png" gap:platform="ios" width="57" height="57" />
+  <icon src="icons/ios/retina.png" gap:platform="ios" width="72" height="72" />
+  <icon src="icons/ios/ipad.png" gap:platform="ios" width="114" height="114" />
+  <icon src="icons/ios/ipad_at_2x.png" gap:platform="ios" width="144" height="144" />
+
+</widget>
